@@ -67,7 +67,6 @@ namespace Penalty_Calculation_Solution.Web.Controllers
 
         public ActionResult Penalty()
         {
-
             //Ödenmesi gereken para miktarının gösterilmesi işlemleri
 
             Book book = TempData["Book"] as Book;
