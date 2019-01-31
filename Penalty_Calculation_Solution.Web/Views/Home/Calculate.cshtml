@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Calculate";
+}
+<div class="row">
+    <hr />
+    <h4 class="text-primary">Your "penalty-score-point" is being calculated in 2 seconds ...</h4>
+</div>
+
+<script>//Settimeout metodu ile anasayfaya geri dönme işlemi
+    $(document).ready(function () {
+        setTimeout(function () {
+            window.location.href = "/Home/Penalty/";
+        }, 3740);
+    });</script>
